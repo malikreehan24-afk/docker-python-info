@@ -14,13 +14,13 @@ Run a Python Info Script inside Docker (simulated with online compiler).
 
 ##  Steps Followed
 1. **Created `info.py`**  
-   ```python
-   import os
-   import socket
-   import datetime
+ import os
+import socket
+import datetime
 
-   print("=== SYSTEM INFO ===")
-   print("Time:", datetime.datetime.now())
-   print("Hostname:", socket.gethostname())
-   print("Current Files:", os.listdir())
-   print("User:", os.getlogin())
+print("=== SYSTEM INFO ===")
+print("Time:", datetime.datetime.now())
+print("Hostname:", socket.gethostname())
+print("Current Files:", os.listdir())
+print("User:", os.environ.get("USER") or os.environ.get("USERNAME") or "sandbox-user")
+
