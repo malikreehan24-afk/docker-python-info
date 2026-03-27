@@ -1,11 +1,10 @@
 # Docker Python Info
 
-## 💻 Programming Challenge
+#programming challenge
 Run a Python Info Script inside Docker (simulated with online compiler).
 
 ---
-
-## 🎯 Objective
+## Objective
 - Write a simple Python script  
 - Push it to GitHub  
 - Run it inside a container / sandbox environment  
@@ -13,7 +12,7 @@ Run a Python Info Script inside Docker (simulated with online compiler).
 
 ---
 
-## 📌 Steps Followed
+##  Steps Followed
 1. **Created `info.py`**  
    ```python
    import os
